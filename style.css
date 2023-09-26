@@ -63,10 +63,10 @@
 
 @media only screen and (max-width: 425px) {
     .basic-info {
-        background-position: 1100px 400px
+        background-position: 1100px 500px;
     }
     .basic-info h1{
         font-size: 29px;
-        text-shadow: 1px 1px black;
+        text-shadow: 1px 1px 10px black;
     }
 }
