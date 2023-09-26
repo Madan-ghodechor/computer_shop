@@ -59,8 +59,8 @@ function clickme()
     targets:'.clickEffect',
     translateY: [-20,0],
     easing:'easeInOutQuad',
-    duration:700,
-    delay:anime.stagger(100, {start: 300}),
+    duration:300,
+    delay:anime.stagger(20, {start: 300}),
     opacity:[0,1]
   })
 }
