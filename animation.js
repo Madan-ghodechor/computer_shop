@@ -42,6 +42,16 @@ document.addEventListener('DOMContentLoaded', ()=>{
     delay:500,
     opacity:[0,1]
 })
+
+anime({
+  targets:'.RightNavleft',
+  translateX:[-1000, 0],
+  easing:'easeOutExpo',
+  duration:5000,
+  delay:500,
+  opacity:[0,1]
+})
+
     
 })
 

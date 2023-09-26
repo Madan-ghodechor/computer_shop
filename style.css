@@ -76,4 +76,16 @@
         font-size: 29px;
         text-shadow: 1px 1px 10px black;
     }
+    #navbarSupportedContent
+    {
+        position: absolute !important;
+        top: 0px;
+    }
+    .sideNavComes
+    {
+        z-index: 9999;
+        height: auto;
+        width: 100%;
+        background-color: black;
+    }
 }
