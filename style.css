@@ -59,7 +59,7 @@
 .basic-info {
     display: flex;
     align-items: center;
-    height: 50vh;
+    height: 67vh;
     background-image: url(./assets/img/Slider1.jpg);
     font-weight: 1000;
     font-family: 'Croissant One', sans-serif;
@@ -75,11 +75,17 @@
 }
 .call
 {
-    height: 10px;
+    height: 20px;
     width: 1%;
     float: left;
-    background-color: rgb(253, 0, 0);
+    background-color: rgb(255, 8, 0);
     overflow: hidden;
+}
+.dr-bg-img
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.292), rgba(0, 0, 0, 0.251)),url(./assets/img/dr.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 @media only screen and (max-width: 665px) {
@@ -107,5 +113,11 @@
     .sideNavComes li
     {
         margin-left: 18px;
+    }
+    .dr-bg-img
+    {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.578)),url(./assets/img/dr.jpg);
+        background-size: 300% 100%;
+        background-position: center;
     }
 }

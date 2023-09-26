@@ -46,8 +46,8 @@ anime({
   targets:'.call',
   translateY: [1000,0],
   easing:'easeOutExpo',
-  duration:400,
-  delay:anime.stagger(40, {start: 200}),
+  duration:40,
+  delay:anime.stagger(14, {start: 200}),
   opacity:[0,1]
 })
   
