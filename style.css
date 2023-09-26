@@ -22,13 +22,12 @@
 .navbar-brand {
     font-weight: 1000;
     font-family: 'Croissant One', sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     color: gold;
 }
 
 .nav-link {
     font-weight: 900;
-    font-size: larger;
     transition: 0.5s;
     color: white;
 }
