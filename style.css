@@ -67,8 +67,20 @@
 {
     font-size: 30px;
 }
+.stat-bars
+{
+    overflow: hidden;
+}
+.call
+{
+    height: 10px;
+    width: 1%;
+    float: left;
+    background-color: rgb(253, 0, 0);
+    overflow: hidden;
+}
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 665px) {
     .basic-info {
         background-position: 1100px 500px;
     }

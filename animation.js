@@ -42,17 +42,15 @@ document.addEventListener('DOMContentLoaded', ()=>{
     delay:500,
     opacity:[0,1]
 })
-
 anime({
-  targets:'.RightNavleft',
-  translateX:[-1000, 0],
+  targets:'.call',
+  translateY: [1000,0],
   easing:'easeOutExpo',
-  duration:5000,
-  delay:500,
+  duration:400,
+  delay:anime.stagger(40, {start: 200}),
   opacity:[0,1]
 })
-
-    
+  
 })
 
 function clickme()
