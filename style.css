@@ -164,12 +164,13 @@
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.578)), url(./assets/img/dr.jpg);
         background-size: 300% 100%;
         background-position: center;
+        height: 900px;
     }
 
     .dr_img_bg {
         width: 100% !important;
         float: left;
-        height: 1300px;
+        height: 100%;
     }
 
     .shadow_box_dr_img {
