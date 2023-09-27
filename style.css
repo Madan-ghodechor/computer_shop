@@ -108,13 +108,13 @@
 
 .box_br_img_info ul {
     list-style: none;
-    line-height: 80px;
+    line-height: 60px;
 }
 
 .box_br_img_info li {
     display: flex;
     align-items: center;
-    font-size: 30px;
+    font-size: 25px;
     color: whitesmoke;
 }
 
@@ -127,7 +127,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -169,7 +169,7 @@
     .dr_img_bg {
         width: 100% !important;
         float: left;
-        height: 100%;
+        height: 700px;
     }
 
     .shadow_box_dr_img {
@@ -187,6 +187,7 @@
     .title_dr
     {
         font-size: 25px !important;
+        text-align: center;
     }
     .dr_img_bg .box_br_img_info ul li {
         font-size: 15px !important;
@@ -194,5 +195,9 @@
     .drbgimgresmob
     {
         height: 600px;
+    }
+    .dr-bg-img
+    {
+        display: flex; justify-content: center; align-items: center;
     }
 }
