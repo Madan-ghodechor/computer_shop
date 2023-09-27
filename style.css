@@ -191,4 +191,8 @@
     .dr_img_bg .box_br_img_info ul li {
         font-size: 15px !important;
     }
+    .drbgimgresmob
+    {
+        height: 600px;
+    }
 }
