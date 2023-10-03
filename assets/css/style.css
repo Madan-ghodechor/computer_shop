@@ -17,8 +17,7 @@
 }
 
 .gradientNav {
-    background-image: linear-gradient(45deg, rgb(3, 3, 3) 55%, rgb(255, 0, 0) 30%, rgb(224, 5, 5) 50%, rgb(239, 0, 0) 70%, rgb(0, 0, 0) 100%) !important"
-
+    background-image: linear-gradient(45deg, rgb(3, 3, 3) 55%, rgb(255, 0, 0) 30%, rgb(224, 5, 5) 50%, rgb(239, 0, 0) 70%, rgb(0, 0, 0) 100%) !important;
 }
 
 .navbar-brand, .navbar-brand:hover{
@@ -135,7 +134,7 @@ footer
     background-position: center;
     background-size: cover;
 }
-footer .row ul, footer .row table tr td a, footer .container-fluid h1
+footer .row, footer .row table a, footer .container-fluid h1
 {
     list-style: none;
     text-decoration: none;
@@ -176,7 +175,7 @@ footer .row ul, footer .row table tr td a, footer .container-fluid h1
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.578)), url(../img/dr.jpg);
         background-size: 300% 100%;
         background-position: center;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat !important;
         height: 900px;
     }
 
@@ -213,5 +212,12 @@ footer .row ul, footer .row table tr td a, footer .container-fluid h1
     .dr-bg-img
     {
         display: flex; justify-content: center; align-items: center;
+    }
+
+
+
+    .copyright-text
+    {
+        font-size: 8px;
     }
 }
