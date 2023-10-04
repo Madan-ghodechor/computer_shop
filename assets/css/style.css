@@ -185,7 +185,7 @@ footer .row, footer .row table a, footer .container-fluid h1
         background-size: 300% 100%;
         background-position: center;
         background-repeat: no-repeat !important;
-        height: 900px;
+        height: 900px !important;
     }
 
     .dr_img_bg {
