@@ -185,7 +185,7 @@ footer .row, footer .row table a, footer .container-fluid h1
         background-size: 300% 100%;
         background-position: center;
         background-repeat: no-repeat !important;
-        height: 900px !important;
+        height: 900px;
     }
 
     .dr_img_bg {
@@ -216,7 +216,7 @@ footer .row, footer .row table a, footer .container-fluid h1
     }
     .drbgimgresmob
     {
-        height: 800px !important;
+        height: 700px !important;
     }
     .dr-bg-img
     {
