@@ -173,12 +173,7 @@ footer .row, footer .row table a, footer .container-fluid h1
 
 @media only screen and (max-width: 665px) {
     .basic-info {
-        /* background-position: 1100px 500px; */
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
-        top: 0px;
-        background-size: cover !important;
+        background-position: 1100px 500px;
     }
 
     .basic-info h1 {
@@ -210,7 +205,11 @@ footer .row, footer .row table a, footer .container-fluid h1
         background-position: center;
         background-repeat: no-repeat !important;
         height: 900px;
-
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        background-size: cover !important;
     }
 
     .dr_img_bg {
