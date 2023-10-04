@@ -216,7 +216,7 @@ footer .row, footer .row table a, footer .container-fluid h1
     }
     .drbgimgresmob
     {
-        height: 600px;
+        height: 800px !important;
     }
     .dr-bg-img
     {
