@@ -209,6 +209,7 @@ footer .row, footer .row table a, footer .container-fluid h1
         left: 0px;
         right: 0px;
         top: 0px;
+        float: left;
         background-size: cover !important;
     }
 
