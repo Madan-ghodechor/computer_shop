@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;500;700&display=swap');
 
 
-.container {
+/* .container {
     height: 100vh;
     width: 100%;
     background-color: rgb(255, 255, 177);
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .container-fluid {
-    margin: 0px !important;
-    padding: 0px !important;
+    margin: 0px ;
+    padding: 0px ;
     overflow: hidden;
 }
 
@@ -150,11 +150,35 @@ footer .row, footer .row table a, footer .container-fluid h1
     font-weight: 1000;
     font-family: 'Croissant One', sans-serif;
 }
+.shake-hand-page
+{
+    background-image: linear-gradient(180deg, rgb(0, 0, 0) 50% , rgba(255, 0, 0, 0.484) 160%), url('../img/footer_bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.shake-hand-page ul li
+{
+    display: flex; 
+    align-items: first baseline;
+}
+.shake-hand-page ul li .head-div
+{
+    font-size: 25px; width: 25%; float: left;
+}
+.shake-hand-page ul li .content-div
+{
+    font-size: 20px; width: auto; float: left;
+}
 /* End Contact Us css  */
 
 @media only screen and (max-width: 665px) {
     .basic-info {
-        background-position: 1100px 500px;
+        /* background-position: 1100px 500px; */
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        background-size: cover !important;
     }
 
     .basic-info h1 {
@@ -186,6 +210,7 @@ footer .row, footer .row table a, footer .container-fluid h1
         background-position: center;
         background-repeat: no-repeat !important;
         height: 900px;
+
     }
 
     .dr_img_bg {
@@ -249,6 +274,11 @@ footer .row, footer .row table a, footer .container-fluid h1
     .contact-basic-info {
         background-size: cover;
         background-position: 1000px 100%;
+    }
+    .shake-hand-page ul li div
+    {
+        clear: both !important;
+        font-size: 16px !important;
     }
     /* Contact Us end */
 }
