@@ -157,18 +157,8 @@ footer .row, footer .row table a, footer .container-fluid h1
     background-position: center;
     background-size: cover;
 }
-.shake-hand-page ul li
-{
-    display: flex; 
-    align-items: first baseline;
-}
-.shake-hand-page ul li .head-div
-{
-    font-size: 25px; width: 25%; float: left;
-}
-.shake-hand-page ul li .content-div
-{
-    font-size: 20px; width: auto; float: left;
+.shake-hand-page .row .big-text{
+    font-size: 20px !important;
 }
 /* End Contact Us css  */
 
@@ -275,10 +265,18 @@ footer .row, footer .row table a, footer .container-fluid h1
         background-size: cover;
         background-position: 1000px 100%;
     }
-    .shake-hand-page ul li div
+
+    .shake-hand-page .row .big-text{
+        font-size: 20px !important;
+        margin-left: 20px;
+    }
+    .shake-hand-page .row  .value-text
     {
-        clear: both !important;
-        font-size: 16px !important;
+        margin-left: 35px;
+    }
+    .contact-container
+    {
+        padding: 10px !important;
     }
     /* Contact Us end */
 }
