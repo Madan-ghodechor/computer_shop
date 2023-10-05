@@ -160,6 +160,13 @@ footer .row, footer .row table a, footer .container-fluid h1
 .shake-hand-page .row .big-text{
     font-size: 20px !important;
 }
+.no-gutters input, .no-gutters input:active, .no-gutters input::after, .no-gutters textarea
+{
+    background-color: transparent !important;
+    border-bottom: 2px solid aqua !important;
+    color: white !important;
+    
+}
 /* End Contact Us css  */
 
 @media only screen and (max-width: 665px) {
