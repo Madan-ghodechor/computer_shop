@@ -164,6 +164,17 @@
 {
     font-size: 30px;
 }
+.data-recovery-process .services-cards .card
+{
+    background-color: rgb(133, 218, 255);
+    border-radius: 10px;
+}
+.data-recovery-process .services-cards .card-body
+{
+    background-color: rgb(0, 179, 255);
+    border-radius: 10px;
+    color: white;
+}
 footer
 {
     background-image: linear-gradient(180deg, rgb(0, 0, 0) 50% , rgba(255, 0, 0, 0.484) 160%), url('../img/footer_bg.jpg');
