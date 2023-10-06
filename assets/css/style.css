@@ -126,6 +126,25 @@
     align-items: center;
     font-size: 20px;
 }
+.cards-recovery-process
+{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.data-recovery-process
+{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.cards-recovery-process .row
+{
+    background-color: rgb(255, 95, 32);
+    color: rgb(255, 255, 255);
+}
 .cards-recovery-process .col-3
 {
     display: flex;
@@ -152,7 +171,7 @@ footer .row, footer .row table a, footer .container-fluid h1
 {
     list-style: none;
     text-decoration: none;
-    color: rgba(245, 245, 245, 0.781);
+    color: rgba(227, 227, 227, 0.884);
 }
 
 /* Contact Us Css */
@@ -258,6 +277,20 @@ footer .row, footer .row table a, footer .container-fluid h1
         display: flex; justify-content: center; align-items: center;
     }
 
+    .data-recovery-process h1
+    {
+        font-size: 25px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .data-recovery-process p
+{
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 0px;
+    padding: 0px;
+}
+
 
 
     .copyright-text
@@ -271,6 +304,7 @@ footer .row, footer .row table a, footer .container-fluid h1
         padding: 0px !important;
         margin-bottom: 20px !important  ;
     }
+
 
     /* Contact Us start */
     .contact-basic-info{
