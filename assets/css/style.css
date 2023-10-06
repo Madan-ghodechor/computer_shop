@@ -133,15 +133,19 @@
     align-items: center;
     height: 100%;
 }
+.cards-recovery-process .row
+{
+    border-radius: 10px;
+}
 .data-recovery-process
 {
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     align-items: center;
 }
 .cards-recovery-process .row
 {
-    background-color: rgb(255, 95, 32);
+    background-color: rgb(230,000,100);
     color: rgb(255, 255, 255);
 }
 .cards-recovery-process .col-3
