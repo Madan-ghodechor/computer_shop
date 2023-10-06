@@ -166,7 +166,7 @@ footer
     background-position: center;
     background-size: cover;
 }
-footer .row, footer .row table a, footer .container-fluid h1
+footer .row, footer .row table a, footer .container-fluid h1,footer h5
 {
     list-style: none;
     text-decoration: none;
