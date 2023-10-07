@@ -1,26 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;500;700&display=swap');
 
 
-/* .container {
-    height: 100vh;
-    width: 100%;
-    background-color: rgb(255, 255, 177);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
+/* Index.html Files css starts */
 .container-fluid {
-    margin: 0px ;
-    padding: 0px ;
+    margin: 0px;
+    padding: 0px;
     overflow: hidden;
 }
 
+/* Nav-bar css starts */
 .gradientNav {
     background-image: linear-gradient(45deg, rgb(3, 3, 3) 55%, rgb(255, 0, 0) 30%, rgb(224, 5, 5) 50%, rgb(239, 0, 0) 70%, rgb(0, 0, 0) 100%) !important;
 }
 
-.navbar-brand, .navbar-brand:hover{
+.navbar-brand,
+.navbar-brand:hover {
     font-weight: 1000;
     font-family: 'Croissant One', sans-serif;
     font-size: 30px;
@@ -57,6 +51,13 @@
     color: rgb(255, 0, 0) !important;
 }
 
+.fa-bars {
+    font-size: 30px;
+}
+
+/* nav-bar css ends */
+
+/* index baner section css starts */
 .basic-info {
     display: flex;
     align-items: center;
@@ -66,11 +67,9 @@
     font-family: 'Croissant One', sans-serif;
 }
 
-/* nav button */
-.fa-bars {
-    font-size: 30px;
-}
+/* index baner section css Ends */
 
+/* process bar starts */
 .stat-bars {
     overflow: hidden;
 }
@@ -83,10 +82,13 @@
     overflow: hidden;
 }
 
+/* Process bar css ends */
+
+/* Doctor images section css starts */
 .dr-bg-img {
     float: left;
     width: 100%;
-    height:auto;
+    height: auto;
     background-image: linear-gradient(90deg, rgb(0, 0, 0) 10%, rgba(0, 0, 0, 0.251) 100%), url(../img/dr.jpg);
     background-attachment: fixed;
     background-size: 100% 105%;
@@ -125,97 +127,143 @@
     align-items: center;
     font-size: 20px;
 }
-.cards-recovery-process
-{
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-.cards-recovery-process .row:hover
-{
-    transform: scale(1.2);
-    background-color: transparent;
-    background-color: rgb(0, 166, 255);
-    z-index: 9999;
-}
-.cards-recovery-process .row
-{
-    border-radius: 10px;
+
+/* Doctor images section css Ends */
+
+
+/* Our Services Css Starts */
+.services-cards .rounded .card {
     transition: 0.5s ease-out;
-}
-.data-recovery-process
-{
-    min-height: 80vh;
-    display: flex;
-    align-items: center;
-}
-.cards-recovery-process .row
-{
-    background-color: rgb(230,000,100);
-    color: rgb(255, 255, 255);
-}
-.cards-recovery-process .col-3
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.cards-recovery-process .col-9
-{
-    display: flex;
-    align-items: center;
-    font-size: 15px;
-}
-.cards-recovery-process .col-3 i
-{
-    font-size: 30px;
-}
-.data-recovery-process .services-cards, .data-recovery-process .rounded, .data-recovery-process .card{
-    min-height: 300px;
-}
-.data-recovery-process .card img{
-    max-height: 160px;
-    max-width: 200px;
-}
-.services-cards .rounded .card{
-    transition: 0.5s ease-out;
-}
-.services-cards .rounded .card:hover
-{
-    /* background-color: rgba(0, 211, 230, 0.763); */
-    transform: scale(1.1);
 }
 
-.data-recovery-process .services-cards .card
-{
+.services-cards .rounded .card:hover {
+    /* background-color: rgba(0, 211, 230, 0.763); */
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Our Services Css Ends */
+
+/* Data recovery process css starts */
+.data-recovery-process .services-cards .card {
     background-color: rgba(138, 209, 254, 0.523);
     border-radius: 10px;
     height: 100%;
 }
-.data-recovery-process .services-cards .card-body
-{
+
+.data-recovery-process .services-cards .card-body {
     background-color: rgb(0, 152, 217);
     border-radius: 10px;
     color: white;
     height: 100%;
 }
-footer
-{
-    background-image: linear-gradient(180deg, rgb(0, 0, 0) 50% , rgba(255, 0, 0, 0.484) 160%), url('../img/footer_bg.jpg');
+
+.cards-recovery-process {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.cards-recovery-process .row:hover {
+    transform: scale(1.2);
+    background-color: transparent;
+    background-color: rgb(0, 166, 255);
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.cards-recovery-process .row {
+    border-radius: 10px;
+    transition: 0.5s ease-out;
+}
+
+.data-recovery-process {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.cards-recovery-process .row {
+    background-color: rgb(230, 000, 100);
+    color: rgb(255, 255, 255);
+}
+
+.cards-recovery-process .col-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-recovery-process .col-9 {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.cards-recovery-process .col-3 i {
+    font-size: 30px;
+}
+
+.data-recovery-process .services-cards,
+.data-recovery-process .rounded,
+.data-recovery-process .card {
+    min-height: 300px;
+}
+
+.data-recovery-process .card img {
+    max-height: 160px;
+    max-width: 200px;
+}
+
+/* Data recovery process css Ends */
+
+
+/* Footer Section Css Starts */
+footer {
+    background-image: linear-gradient(180deg, rgb(0, 0, 0) 50%, rgba(255, 0, 0, 0.484) 160%), url('../img/footer_bg.jpg');
     background-position: center;
     background-size: cover;
 }
-footer .row, footer .row table a, footer .container-fluid h1,footer h5
-{
+
+footer .row,
+footer .row table a,
+footer .container-fluid h1,
+footer h5 {
     list-style: none;
     text-decoration: none;
     color: rgba(227, 227, 227, 0.884);
 }
 
-/* Contact Us Css */
-.contact-basic-info{
+/* Footer Section Css Ends */
+
+/* Index.html Files css Ends */
+
+/* Services Section Css Starts */
+.service-basic-info {
+    display: flex;
+    align-items: center;
+    height: 67vh;
+    background-image: url(../img/Services/service-bg.jpg);
+    background-position: 10 400;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-weight: 1000;
+    font-family: 'Abril', Fatface;
+}
+
+.service-basic-info .text-center h1 {
+    font-size: 80px !important;
+    text-shadow: 0px 0px 10px black;
+    letter-spacing: 10px;
+    font-weight: 800;
+}
+
+/* Services Section Css Ends */
+
+/* Contact Page Css Starts */
+.contact-basic-info {
     display: flex;
     align-items: center;
     height: 67vh;
@@ -223,25 +271,32 @@ footer .row, footer .row table a, footer .container-fluid h1,footer h5
     font-weight: 1000;
     font-family: 'Croissant One', sans-serif;
 }
-.shake-hand-page
-{
-    background-image: linear-gradient(180deg, rgb(0, 0, 0) 50% , rgba(255, 0, 0, 0.484) 160%), url('../img/footer_bg.jpg');
+
+.shake-hand-page {
+    background-image: linear-gradient(180deg, rgb(0, 0, 0) 50%, rgba(255, 0, 0, 0.484) 160%), url('../img/footer_bg.jpg');
     background-position: center;
     background-size: cover;
 }
-.shake-hand-page .row .big-text{
+
+.shake-hand-page .row .big-text {
     font-size: 20px !important;
 }
-.no-gutters input, .no-gutters input:active, .no-gutters input::after, .no-gutters textarea
-{
+
+.no-gutters input,
+.no-gutters input:active,
+.no-gutters input::after,
+.no-gutters textarea {
     background-color: transparent !important;
     border-bottom: 2px solid aqua !important;
     color: white !important;
-    
+
 }
-/* End Contact Us css  */
+
+/* Contact Page Css End */
 
 @media only screen and (max-width: 665px) {
+
+    /* Index Page Css Starts */
     .basic-info {
         /* background-repeat: no-repeat !important; */
         background-size: cover;
@@ -302,77 +357,103 @@ footer .row, footer .row table a, footer .container-fluid h1,footer h5
         list-style: none;
         line-height: 50px;
     }
-    .title_dr
-    {
+
+    .title_dr {
         font-size: 25px !important;
         text-align: center;
     }
+
     .dr_img_bg .box_br_img_info ul li {
         font-size: 15px !important;
     }
-    .drbgimgresmob
-    {
+
+    .drbgimgresmob {
         height: 700px !important;
     }
-    .dr-bg-img
-    {
-        display: flex; justify-content: center; align-items: center;
+
+    .dr-bg-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .data-recovery-process h1
-    {
+    .data-recovery-process h1 {
         font-size: 25px;
         margin: 0px;
         padding: 0px;
     }
-    .data-recovery-process p
-{
-    font-size: 15px;
-    font-weight: 100;
-    margin-top: 0px;
-    padding: 0px;
-}
+
+    .data-recovery-process p {
+        font-size: 15px;
+        font-weight: 100;
+        margin-top: 0px;
+        padding: 0px;
+    }
 
 
 
-    .copyright-text
-    {
+    .copyright-text {
         font-size: 8px;
     }
-    .some-imp-links
-    {
+
+    .some-imp-links {
         font-size: 30px;
         margin: 0px !important;
         padding: 0px !important;
-        margin-bottom: 20px !important  ;
+        margin-bottom: 20px !important;
     }
 
+    /* Index page css ends */
 
-    /* Contact Us start */
-    .contact-basic-info{
+    /* Services Section Css Starts */
+    .service-basic-info {
         display: flex;
         align-items: center;
-        /* height: 67vh; */
-        background-image: linear-gradient(180deg, rgb(0, 0, 0) 10%,rgba(0, 0, 0, 0.37) 20%, rgba(0, 0, 0, 0.68) 100%), url(../img/contact/contact-baner.jpg);
+        height: 67vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.24) 10%, black), url(../img/Services/service-bg.jpg);
+        background-position: center;
+        background-size: 600px 100%;
+        background-repeat: no-repeat;
         font-weight: 1000;
         font-family: 'Croissant One', sans-serif;
     }
+
+    .service-basic-info .text-center h1 {
+        font-size: 30px !important;
+        text-shadow: 0px 0px 10px black;
+        letter-spacing: 10px;
+        font-weight: 800;
+    }
+
+    /* Services Section Css Ends */
+
+    /* Contact Page start */
+    .contact-basic-info {
+        display: flex;
+        align-items: center;
+        /* height: 67vh; */
+        background-image: linear-gradient(180deg, rgb(0, 0, 0) 10%, rgba(0, 0, 0, 0.37) 20%, rgba(0, 0, 0, 0.68) 100%), url(../img/contact/contact-baner.jpg);
+        font-weight: 1000;
+        font-family: 'Croissant One', sans-serif;
+    }
+
     .contact-basic-info {
         background-size: cover;
         background-position: 1000px 100%;
     }
 
-    .shake-hand-page .row .big-text{
+    .shake-hand-page .row .big-text {
         font-size: 20px !important;
         margin-left: 20px;
     }
-    .shake-hand-page .row  .value-text
-    {
+
+    .shake-hand-page .row .value-text {
         margin-left: 35px;
     }
-    .contact-container
-    {
+
+    .contact-container {
         padding: 10px !important;
     }
-    /* Contact Us end */
+
+    /* Contact Page end */
 }
