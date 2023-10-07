@@ -259,7 +259,11 @@ footer h5 {
     letter-spacing: 10px;
     font-weight: 800;
 }
-
+.service-collapse-info .btns button
+{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
 /* Services Section Css Ends */
 
 /* Contact Page Css Starts */
@@ -423,7 +427,12 @@ footer h5 {
         letter-spacing: 10px;
         font-weight: 800;
     }
-
+    .service-collapse-info .btns button
+{
+    outline: 0px !important;
+    width: 100% !important;
+    box-shadow: none !important;
+}
     /* Services Section Css Ends */
 
     /* Contact Page start */
