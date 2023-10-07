@@ -133,9 +133,17 @@
     align-items: center;
     height: 100%;
 }
+.cards-recovery-process .row:hover
+{
+    transform: scale(1.2);
+    background-color: transparent;
+    background-color: rgb(21, 200, 179);
+    z-index: 9999;
+}
 .cards-recovery-process .row
 {
     border-radius: 10px;
+    transition: 0.5s ease-out;
 }
 .data-recovery-process
 {
@@ -164,16 +172,39 @@
 {
     font-size: 30px;
 }
+.data-recovery-process .services-cards, .data-recovery-process .rounded, .data-recovery-process .card{
+    min-height: 300px;
+}
+.data-recovery-process .card img{
+    max-height: 160px;
+    max-width: 200px;
+}
+.services-cards .rounded .card{
+    transition: 0.5s ease-out;
+}
+.services-cards .rounded .card:hover
+{
+    background-color: rgba(0, 211, 230, 0.763);
+    transform: scale(1.1);
+}
+.services-cards .rounded .card:hover h5,.services-cards .rounded .card:hover p
+{
+    transition: 0.5s ease-out;
+    color: rgb(0, 0, 0);
+}
+
 .data-recovery-process .services-cards .card
 {
-    background-color: rgb(133, 218, 255);
+    background-color: rgba(138, 209, 254, 0.523);
     border-radius: 10px;
+    height: 100%;
 }
 .data-recovery-process .services-cards .card-body
 {
-    background-color: rgb(0, 179, 255);
+    background-color: rgb(0, 152, 217);
     border-radius: 10px;
     color: white;
+    height: 100%;
 }
 footer
 {
