@@ -433,6 +433,11 @@ footer h5 {
     width: 100% !important;
     box-shadow: none !important;
 }
+.service-collapse-info .card-body .row img
+{
+    height: auto;
+    width: 200px !important;
+}
     /* Services Section Css Ends */
 
     /* Contact Page start */
