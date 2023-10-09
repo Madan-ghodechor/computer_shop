@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CDR Lab</title>
+
+  <!-- Animation CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script src="https://kit.fontawesome.com/7731116391.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap CDN's -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"></script>
+
+  <script src="../assets/js/animation.js"></script>
+
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Croissant+One&display=swap">
+
+  <!-- AOS CDN's  -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body class=".body " style="background-color: black;">
+  <div class="stat-bars">
+    <div style="height: 20px; width: 100%; background-color: black;"></div>
+  </div>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg"
+      style="background-image: linear-gradient(45deg, rgb(3, 3, 3) 55%, rgb(255, 0, 0) 30%,rgb(224, 5, 5) 50%,rgb(239, 0, 0) 70%, rgb(0, 0, 0) 100%)">
+      <a class=" fade navbar-brand" href="index.html">CDR Labs</a>
+      <button onclick="openNav()" class="navbar-toggler text-white Rightleft" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse sideNavComes d-md-RightNavleft" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto h-100">
+          <li class="text-right pr-4 d-inline-block d-md-none">
+            <button class="btn text-danger" style="font-size: 30px; font-weight: 900;" onclick="closeNav()">X</button>
+          </li>
+          <li class=" topDown nav-item active">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class=" topDown nav-item">
+            <a class="nav-link " href="services.html">Services</a>
+          </li>
+          <li class=" topDown nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class=" topDown nav-item">
+            <a class="nav-link" href="training.html">Training</a>
+          </li>
+          <li class=" topDown nav-item">
+            <a class="nav-link text-danger href="about.html">About</a>
+          </li>
+          <li class=" topDown nav-item dropdown" style="z-index: 1 !important;">
+            <a class="nav-link" href="contact.html"> Contact Us</a>
+            <!-- <a onclick="clickme()" class="nav-link dropdown-toggle" style="z-index: 99 !important;" href="#"
+              role="button" data-toggle="dropdown" aria-expanded="false">
+              More
+            </a> -->
+            <!-- <div class="clickEffect dropdown-menu">
+              <a class="clickEffect dropdown-item" href="#">Contact Us</a>
+              <a class="clickEffect dropdown-item" href="#">Another action</a>
+              <a class="clickEffect dropdown-item" href="#">Something else here</a>
+            </div> -->
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 pl-2">
+          <input class="topDown form-control mr-sm-2 d-md-block d-none " type="search" placeholder="Search"
+            aria-label="Search">
+          <button class="topDown btn btn-outline-primary my-2 my-sm-0 d-md-block d-none" type="submit">Search</button>
+        </form>
+      </div>
+
+    </nav>
+    <div class="about-basic-info w-100 m-0 row">
+      <div class="text-center col-md-6">
+        <h1 class="text-white bottomUp">About Us </h1>
+      </div>
+    </div>
+
+    <div class="stat-bars">
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+      <div class="call"></div>
+    </div>
+
+    <div style="height: 130px; background-color: black;"></div>
+    <div style="width: 100%; height: 1px; background-color: red;"></div>
+
+
+    <div style="width: 100%; height: 1px; background-color: red;"></div>
+
+    <div class="container-fluid">
+      <div class="row p-md-5 m-md-5 service-collapse-info">
+        <div class="col-md-12 btns p-5">
+          <button class="mt-3 btn btn-outline-primary text-left" type="button" data-toggle="collapse"
+            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Data Recovery</button>
+          <button class="mt-3 btn btn-outline-primary text-left collapsed" type="button" data-toggle="collapse"
+            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Laptops Sales And
+            Services</button>
+          <button class="mt-3 btn btn-outline-primary text-left collapsed" type="button" data-toggle="collapse"
+            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">CCTV Installation</button>
+        </div>
+        <div class="col-md-12">
+
+          <div class="accordion" id="accordionExample">
+
+            <div id="collapseOne" class="collapse show " aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body text-white">
+                <div class="row">
+                  <div class="col-md-4 p-md-5">
+                    <img src="../assets/img/service-card/hdd.png" class="w-100">
+                  </div>
+                  <div class="col-md-8 p-md-5 p-5">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis omnis, repellendus assumenda
+                      doloribus neque iste odio illum in! Ratione atque cupiditate et labore corrupti obcaecati possimus
+                      assumenda quos. Dolor veritatis, sequi eligendi ipsa harum possimus vel consequatur ipsam voluptas
+                      commodi. Temporibus tempora consequatur ipsa corporis quo totam repellat? Sapiente iure incidunt
+                      odio nobis accusantium adipisci hic et debitis illo blanditiis ratione repellendus, quas minus
+                      obcaecati at earum odit impedit atque aut quia sit soluta eaque corporis voluptate! Et sint
+                      blanditiis aspernatur distinctio accusantium, nihil debitis quasi, atque consequatur repudiandae
+                      itaque voluptatibus nobis facere necessitatibus eos, amet numquam temporibus dolorum officiis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body text-white">
+                Some placeholder content for the second accordion panel. This panel is hidden by default.
+              </div>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body text-white">
+                And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by
+                default.
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div style="width: 100%; height: 1px; background-color: red;"></div>
+
+      <footer style="min-height: 50vh;" class="p-5">
+        <div class="container-fluid">
+          <h1 class=" mt-0 mb-5 some-imp-links">Some Important Links</h1>
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-2 mt-4">
+              <div class="h-100 w-md-50">
+                <h5>Connect With Us</h5>
+                <table>
+                  <tr>
+                    <td class="pl-4"> <i class="fa-brands fa-instagram"></i> </td>
+                    <td class="pl-2"> <a href="">Instagram</a></td>
+                  </tr>
+                  <tr>
+                    <td class="pl-4"> <i class="fa-brands fa-facebook-f"></i> </td>
+                    <td class="pl-2"> <a href="">Facebook</a></td>
+                  </tr>
+                  <tr>
+                    <td class="pl-4"> <i class="fa-brands fa-youtube"></i> </td>
+                    <td class="pl-2"> <a href="">YouTube</a></td>
+                  </tr>
+                  <tr>
+                    <td class="pl-4"> <i class="fa-brands fa-whatsapp"></i> </td>
+                    <td class="pl-2"> <a href="">Whatsapp</a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="col-md-4 mt-4">
+              <div class="h-100 w-md-50">
+                <h5>Contact With Us</h5>
+                <table class="w-100 ">
+                  <tr>
+                    <td class="pl-4"> <i class="fa-regular fa-building"></i> </td>
+                    <td class="pl-2"> <a href="">CDR Labs – Professional Data Recovery Services</a></td>
+                  </tr>
+                  <tr>
+                    <td class="pl-4"> <i class="fa-solid fa-location-dot"></i> </td>
+                    <td class="pl-2"> <a href="">Shevgaon, Miri Road, Shevgaon - 414503</a></td>
+                  </tr>
+                  <tr>
+                    <td class="pl-4"> <i class="fa-solid fa-phone"></i> </td>
+                    <td class="pl-2"> <a href="">+91 9021259894</a></td>
+                  </tr>
+                  <tr>
+                    <td class="pl-4"> <i class="fa-regular fa-envelope"></i> </td>
+                    <td class="pl-2"> <a href="">info@cdrlab.in</a></td>
+                  </tr>
+                  <tr>
+                    <td class="pl-4"> <i class="fa-regular fa-clock"></i> </td>
+                    <td class="pl-2"> <a href="">Mon-Sat 9 AM to 9 PM</a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="col-md-2 mt-4">
+              <div class="h-100 w-md-50">
+                <h5>Get To Know Us</h5>
+                <table>
+                  <tr>
+                    <td class="pl-4"> <i class="fa-solid fa-house"></i> </td>
+                    <td class="pl-2"> <a href="index.html">Home</a></td>
+                  </tr>
+                  <tr>
+                    <td class="pl-4"> <i class="fa-solid fa-gear"></i> </td>
+                    <td class="pl-2"> <a href="pages/services.html">Services</a></td>
+                  </tr>
+                  <tr>
+                    <td class="pl-4"> <i class="fa-solid fa-box"></i> </td>
+                    <td class="pl-2"> <a href="pages/products.html">Products</a></td>
+                  </tr>
+                  <tr>
+                    <td class="pl-4"> <i class="fa-solid fa-screwdriver-wrench"></i> </td>
+                    <td class="pl-2"> <a href="pages/training.html">Training</a></td>
+                  </tr>
+                  <tr>
+                    <td class="pl-4"> <i class="fa-solid fa-address-card"></i> </td>
+                    <td class="pl-2"> <a href="pages/about.html">About</a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="col-md-3 mt-4">
+              <div class="h-100 w-md-50">
+                <h5>Solutions Here</h5>
+                <table>
+                  <tr>
+                    <td class="pl-4"> <i class="fa-solid fa-download"></i> </td>
+                    <td class="pl-2"> <a href="">Harddisk Data Recovery</a></td>
+                  </tr>
+                  <tr>
+                    <td class="pl-4"> <i class="fa-solid fa-download"></i> </td>
+                    <td class="pl-2"> <a href="">SSD Data Recovery</a></td>
+                  </tr>
+                  <tr>
+                    <td class="pl-4"> <i class="fa-solid fa-download"></i> </td>
+                    <td class="pl-2"> <a href="">Laptop Data Recovery</a></td>
+                  </tr>
+                  <tr>
+                    <td class="pl-4"> <i class="fa-solid fa-download"></i> </td>
+                    <td class="pl-2"> <a href="">Desktop Data Recovery</a></td>
+                  </tr>
+                  <tr>
+                    <td class="pl-4"> <i class="fa-solid fa-download"></i> </td>
+                    <td class="pl-2"> <a href="">Pendrive Data Recovery</a></td>
+                  </tr>
+                  <tr>
+                    <td class="pl-4"> <i class="fa-solid fa-download"></i> </td>
+                    <td class="pl-2"> <a href="">SD-card Data Recovery</a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div style="height: 70px;" class="m-0 p-0 w-100 text-center d-flex align-items-center justify-content-center">
+      <p class="text-white copyright-text">Copyright ©2023 | All Rights Reserved | CDR Labs – Professional Data Recovery
+        Shevgaon </p>
+    </div>
+
+    <script src="../assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 40, // offset (in px) from the original trigger point
+        delay: 50, // values from 0 to 3000, with step 50ms
+        duration: 1000, // values from 0 to 3000, with step 50ms
+        easing: 'ease-in-quad', // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom',
+      });
+    </script>
+</body>
+
+</html>

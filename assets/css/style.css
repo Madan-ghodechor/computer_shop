@@ -259,12 +259,39 @@ footer h5 {
     letter-spacing: 10px;
     font-weight: 800;
 }
-.service-collapse-info .btns button
-{
+
+.service-collapse-info .btns button {
     outline: 0px !important;
     box-shadow: none !important;
 }
+
 /* Services Section Css Ends */
+
+
+.about-basic-info {
+    display: flex;
+    align-items: center;
+    height: 67vh;
+    background-image: url(../img/about/bg_img.jpg);
+    background-position: 10 400;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-weight: 1000;
+    font-family: 'Abril', Fatface;
+}
+.about-basic-info .text-center h1 {
+    font-size: 80px !important;
+    text-shadow: 0px 0px 10px black;
+    letter-spacing: 10px;
+    font-weight: 800;
+}
+
+.about-collapse-info .btns button {
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+
 
 /* Contact Page Css Starts */
 .contact-basic-info {
@@ -287,8 +314,6 @@ footer h5 {
 }
 
 .no-gutters input,
-.no-gutters input:active,
-.no-gutters input::after,
 .no-gutters textarea {
     background-color: transparent !important;
     border-bottom: 2px solid aqua !important;
@@ -427,18 +452,46 @@ footer h5 {
         letter-spacing: 10px;
         font-weight: 800;
     }
-    .service-collapse-info .btns button
-{
-    outline: 0px !important;
-    width: 100% !important;
-    box-shadow: none !important;
-}
-.service-collapse-info .card-body .row img
-{
-    height: auto;
-    width: 200px !important;
-}
+
+    .service-collapse-info .btns button {
+        outline: 0px !important;
+        width: 100% !important;
+        box-shadow: none !important;
+    }
+
+    .service-collapse-info .card-body .row img {
+        height: auto;
+        width: 200px !important;
+    }
+
     /* Services Section Css Ends */
+
+    /* About Us Section */
+    .about-basic-info {
+        display: flex;
+        align-items: center;
+        height: 67vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.24) 10%, black), url(../img/about/bg_img.jpg);
+        background-position: center;
+        background-size: 600px 100%;
+        background-repeat: no-repeat;
+        font-weight: 1000;
+    }
+    
+    .about-basic-info .text-center h1 {
+        font-size: 50px !important;
+        text-shadow: 0px 0px 10px black;
+        letter-spacing: 10px;
+        font-weight: 800;
+    }
+
+    .about-collapse-info .btns button {
+        outline: 0px !important;
+        width: 100% !important;
+        box-shadow: none !important;
+    }
+
+
 
     /* Contact Page start */
     .contact-basic-info {
