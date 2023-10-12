@@ -145,6 +145,12 @@
     transform: scale(1.1);
     cursor: pointer;
 }
+.service-datarecovery-row
+{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
 
 /* Our Services Css Ends */
 
@@ -490,6 +496,18 @@ footer h5 {
         width: 200px !important;
     }
 
+    .service-datarecovery-row
+    {
+        height: auto;
+    }
+    .service-datarecovery-row h1
+    {
+        font-size: 25px;
+    }
+    .service-datarecovery-row h3
+    {
+        font-size: 20px;
+    }
     /* Services Section Css Ends */
 
     /* About Us Section */
