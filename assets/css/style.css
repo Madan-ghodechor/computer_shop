@@ -17,7 +17,7 @@
 .navbar-brand:hover {
     font-weight: 1000;
     font-family: 'Croissant One', sans-serif;
-    font-size: 30px;
+    font-size: 30px !important;
     color: gold;
 }
 
