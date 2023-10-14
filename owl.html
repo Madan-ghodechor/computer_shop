@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="owl-carousel owl-theme" style="height: 100vh !important; background-color: red !important;">
+        <div class="item" style="height: auto;">
+          <img class="w-100 h-100" src="https://t4.ftcdn.net/jpg/05/60/89/51/360_F_560895114_Cq4PdJC2LFZw8tvzPcx69IFWPgMWTgeN.jpg">
+        </div>
+        <div class="item" style="height: auto;">
+          <img class="w-100 h-100" src="https://m.media-amazon.com/images/I/41sRPmdlu0L._AC_UF1000,1000_QL80_.jpg">
+        </div>
+        <div class="item" style="height: auto;">
+          <img class="w-100 h-100" src="https://t4.ftcdn.net/jpg/05/60/89/51/360_F_560895114_Cq4PdJC2LFZw8tvzPcx69IFWPgMWTgeN.jpg">
+        </div>
+      </div>
+      <script>
+        $(document).ready(function () {
+          var owl = $('.owl-carousel');
+    
+    
+          owl.owlCarousel({
+            responsiveClass: true,
+            responsive: {
+              0: {
+                items: 1
+              },
+              700: {
+                items: 5
+              }
+            },
+            loop: true,
+            nav: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 1500,
+            // autoplayHoverPause: true
+          });
+          $('.play').on('click', function () {
+            owl.trigger('play.owl.autoplay', [1000])
+          })
+          $('.stop').on('click', function () {
+            owl.trigger('stop.owl.autoplay')
+          })
+        })
+      </script>
+
+</body>
+</html>
