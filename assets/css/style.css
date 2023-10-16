@@ -89,6 +89,22 @@
 
 /* Process bar css ends */
 
+/* Owl Carousel Part Starts */
+
+.home-owl-carosel
+{
+    height: 80vh;
+}
+.home-owl-carosel .item{
+    height: 70vh;
+}
+
+.owl-carousel-img{
+    width: 100%;
+}
+
+/* Owl Carousel Part Ends */
+
 /* Doctor images section css starts */
 .dr-bg-img {
     float: left;
@@ -146,8 +162,7 @@
     transform: scale(1.1);
     cursor: pointer;
 }
-.service-datarecovery-row
-{
+.service-datarecovery-row{
     height: 90vh;
     display: flex;
     align-items: center;
@@ -389,6 +404,14 @@ footer h5 {
 
     .sideNavComes li {
         margin-left: 18px;
+    }
+
+    .home-owl-carosel
+    {
+        height: auto;
+    }
+    .home-owl-carosel .item{
+        height: 50vh;
     }
 
     .dr-bg-img {

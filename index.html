@@ -39,6 +39,7 @@
 
   <script src="assets/owl-carousel/jquery.min.js"> </script>
   <script src="assets/owl-carousel/owl.carousel.js"> </script>
+
 </head>
 
 <body class=".body " style="background-color: black;">
@@ -77,6 +78,7 @@
           </li>
           <li class=" topDown nav-item dropdown" style="z-index: 1 !important;">
             <a class="nav-link" href="pages/contact.html"> Contact Us</a>
+
             <!-- <a onclick="clickme()" class="nav-link dropdown-toggle" style="z-index: 99 !important;" href="#"
               role="button" data-toggle="dropdown" aria-expanded="false">
               More
@@ -86,6 +88,7 @@
               <a class="clickEffect dropdown-item" href="#">Another action</a>
               <a class="clickEffect dropdown-item" href="#">Something else here</a>
             </div> -->
+
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0 pl-2">
@@ -209,26 +212,29 @@
     <div style="height: 130px; background-color: black;"></div>
     <div style="width: 100%; height: 1px; background-color: red;"></div>
 
-    <section class="home-owl-carosel">
+    <section class="home-owl-carosel m-5">
       <div class="row">
-        <div class="col-md-7 d-flex justify-content-center align-items-center">
+        <div class="col-md-5 d-flex justify-content-center align-items-center">
           <h1 class="text-light" >Owl Carousel Try</h1>
         </div>
-        <div class="col-md-5">
-          <div class="owl-carousel owl-theme">
-            <div class="item" style="height: 100%;">
-              <img class="w-100 h-100" src="https://t4.ftcdn.net/jpg/05/60/89/51/360_F_560895114_Cq4PdJC2LFZw8tvzPcx69IFWPgMWTgeN.jpg">
+        <div class="col-md-7 home-owl-carosel">
+          <div class="h-100 owl-carousel owl-theme">
+            <div class="item" >
+              <img class="h-100 w-100"  src="https://www.stuff.tv/wp-content/uploads/sites/2/2021/04/Stuff-Best-Laptop-Lead.png">
             </div>
-            <div class="item" style="height: 100%;">
-              <img class="w-100 h-100" src="https://m.media-amazon.com/images/I/41sRPmdlu0L._AC_UF1000,1000_QL80_.jpg">
+            <div class="item">
+              <img class="h-100 w-100"  src="https://t4.ftcdn.net/jpg/05/60/89/51/360_F_560895114_Cq4PdJC2LFZw8tvzPcx69IFWPgMWTgeN.jpg">
             </div>
-            <div class="item" style="height: 100%;">
-              <img class="w-100 h-100" src="https://t4.ftcdn.net/jpg/05/60/89/51/360_F_560895114_Cq4PdJC2LFZw8tvzPcx69IFWPgMWTgeN.jpg">
+            <div class="item">
+              <img class="h-100 w-100" src="https://zebronics.com/cdn/shop/files/Laptop_Banner_800_X_1067_Mobile.jpg">
             </div>
+            
           </div>
         </div>
       </div>
     </section>
+
+    <div style="width: 100%; height: 1px; background-color: red;"></div>
 
     <div class="contanier-fluid p-4 mt-4 mb-4  data-recovery-process">
       <div class="pb-5">
@@ -598,7 +604,7 @@
       margin: 10,
       autoplay: true,
       autoplayTimeout: 1500,
-      // autoplayHoverPause: true
+      autoplayHoverPause: true
     });
     $('.play').on('click', function () {
       owl.trigger('play.owl.autoplay', [1000])
