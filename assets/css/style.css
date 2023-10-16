@@ -103,6 +103,12 @@
     width: 100%;
 }
 
+.home-owl-carosel h1
+{
+    font-family: 'Autour One', Sorkin Type;
+    font-size: 80px;
+}
+
 /* Owl Carousel Part Ends */
 
 /* Doctor images section css starts */
@@ -413,6 +419,11 @@ footer h5 {
     .home-owl-carosel .item{
         height: 50vh;
     }
+    .home-owl-carosel h1
+{
+    font-family: 'Autour One', Sorkin Type;
+    font-size: 40px;
+}
 
     .dr-bg-img {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.578)), url(../img/dr.jpg);
