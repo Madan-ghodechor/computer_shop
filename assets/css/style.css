@@ -322,11 +322,23 @@ footer h5 {
     border: none;
     border-radius: 7px;
     padding: 10px;
-    width: 24.76%;
-    
-    margin-top: 4px;
+    margin-top: 12px;
 }
-
+.products-cards-section .card
+{
+    box-shadow: -6px -6px 35px rgb(0, 0, 0) inset;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+.products-cards-section .prodcard
+{
+    height: 400px;
+}
+.photo img
+{
+    height: 100% !important;
+    width: 100% !important;
+}
 /* Products Section Ends */
 
 
@@ -580,13 +592,19 @@ footer h5 {
 
     /* Products section css Starts */
     .products-btn-parts button
-{
-    border: none;
-    border-radius: 0px;
-    padding: 10px;
-    width: 49%;
-    margin-top: 4px;
-}
+    {
+        border: none;
+        border-radius: 0px;
+        padding: 10px;
+        width: 100%;
+        margin-top: 4px;
+    }
+    .products-btn-parts .prodcard .photo, .products-btn-parts .prodcard .description
+    {
+        width: 100% !important;
+        float: none;
+    }
+    
     /* Products section Css Ends */
 
     /* About Us Section */
