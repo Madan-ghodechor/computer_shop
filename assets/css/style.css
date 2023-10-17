@@ -91,20 +91,19 @@
 
 /* Owl Carousel Part Starts */
 
-.home-owl-carosel
-{
+.home-owl-carosel {
     height: 80vh;
 }
-.home-owl-carosel .item{
+
+.home-owl-carosel .item {
     height: 60vh;
 }
 
-.owl-carousel-img{
+.owl-carousel-img {
     width: 100%;
 }
 
-.home-owl-carosel h1
-{
+.home-owl-carosel h1 {
     font-family: 'Autour One', Sorkin Type;
     font-size: 80px;
 }
@@ -168,7 +167,8 @@
     transform: scale(1.1);
     cursor: pointer;
 }
-.service-datarecovery-row{
+
+.service-datarecovery-row {
     height: 90vh;
     display: flex;
     align-items: center;
@@ -296,11 +296,39 @@ footer h5 {
     outline: 0px !important;
     box-shadow: none !important;
 }
-.service-datarecovery-row img{
+
+.service-datarecovery-row img {
     border-radius: 50% !important;
 }
 
 /* Services Section Css Ends */
+
+/* Products Section Starts */
+.products-basic-info {
+    display: flex;
+    align-items: center;
+    height: 67vh;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.53) 20%, rgba(0, 0, 0, 0.356) 100%), url(../img/products/laptop.png);
+    font-weight: 1000;
+    background-size: 100% 100%;
+}
+
+.products-basic-info h1 {
+    font-family: 'Abril', Fatface;
+    font-size: 80px;
+}
+.products-btn-parts button
+{
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    width: 24.76%;
+    
+    margin-top: 4px;
+}
+
+/* Products Section Ends */
+
 
 /* About us section start */
 .about-basic-info {
@@ -339,7 +367,8 @@ footer h5 {
 .about-section .who-we-are h1 {
     color: rgb(0, 217, 255)
 }
-.about-section .wehaveitems{
+
+.about-section .wehaveitems {
     min-height: 90vh;
 }
 
@@ -412,18 +441,18 @@ footer h5 {
         margin-left: 18px;
     }
 
-    .home-owl-carosel
-    {
+    .home-owl-carosel {
         height: auto;
     }
-    .home-owl-carosel .item{
+
+    .home-owl-carosel .item {
         height: 50vh;
     }
-    .home-owl-carosel h1
-{
-    font-family: 'Autour One', Sorkin Type;
-    font-size: 40px;
-}
+
+    .home-owl-carosel h1 {
+        font-family: 'Autour One', Sorkin Type;
+        font-size: 40px;
+    }
 
     .dr-bg-img {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.578)), url(../img/dr.jpg);
@@ -534,20 +563,31 @@ footer h5 {
         width: 200px !important;
     }
 
-    .service-datarecovery-row
-    {
+    .service-datarecovery-row {
         height: auto;
     }
-    .service-datarecovery-row h1
-    {
+
+    .service-datarecovery-row h1 {
         font-size: 25px;
     }
-    .service-datarecovery-row h3,   .service-datarecovery-row .btn-success
-    {
+
+    .service-datarecovery-row h3,
+    .service-datarecovery-row .btn-success {
         font-size: 20px !important;
     }
-  
+
     /* Services Section Css Ends */
+
+    /* Products section css Starts */
+    .products-btn-parts button
+{
+    border: none;
+    border-radius: 0px;
+    padding: 10px;
+    width: 49%;
+    margin-top: 4px;
+}
+    /* Products section Css Ends */
 
     /* About Us Section */
     .about-basic-info {
@@ -597,7 +637,7 @@ footer h5 {
         font-size: 20px !important;
     }
 
-    .wehaveitems{
+    .wehaveitems {
         height: auto !important;
         margin-top: 70px;
         margin-bottom: 70px;
