@@ -399,6 +399,7 @@ footer h5 {
 {
     position: sticky !important;
     top: 0px;
+    z-index: 9999;
 }
 .searchbar input   
 {
