@@ -430,6 +430,10 @@ footer h5 {
     font-weight: 1000;
     background-size: 100% 100%;
 }
+.computer-train-course img
+{
+    height: 300px;
+}
 /* Traning section ends */
 
 
@@ -724,6 +728,10 @@ footer h5 {
         background-size: 600px 100%;
         background-repeat: no-repeat;
         font-weight: 1000;
+    }
+    .computer-train-course img
+    {
+        height: 200px;
     }
     /* Traning section Ends */
 
