@@ -421,6 +421,18 @@ footer h5 {
 /* Products Section Ends */
 
 
+/* Traning section Starts */
+.training-basic-info {
+    display: flex;
+    align-items: center;
+    height: 67vh;
+    background-image:  url(../img/traning/header.png);
+    font-weight: 1000;
+    background-size: 100% 100%;
+}
+/* Traning section ends */
+
+
 /* About us section start */
 .about-basic-info {
     display: flex;
@@ -699,6 +711,23 @@ footer h5 {
     }
     
     /* Products section Css Ends */
+
+    
+    /* Traning Section Starts */
+    .training-basic-info
+    {
+        display: flex;
+        align-items: center;
+        height: 67vh;
+        background-image: url(../img/traning/header.png);
+        background-position: center;
+        background-size: 600px 100%;
+        background-repeat: no-repeat;
+        font-weight: 1000;
+    }
+    /* Traning section Ends */
+
+
 
     /* About Us Section */
     .about-basic-info {
